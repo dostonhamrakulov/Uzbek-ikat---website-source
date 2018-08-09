@@ -48,8 +48,8 @@
                   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                      <div class="heiglight text-right">
                         <ul>
-                           <li><a href="#"><i class="fa fa-user"></i>Account</a></li>
-                           <li><a href="#"><i class="fa fa-heart-o"></i>Wishlist</a></li>
+                           <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-user"></i>Account</a></li>
+                           <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-heart-o"></i>Wishlist</a></li>
                            <li class="cart cart-area">
                               <div class="hove">
                                  <i class="fa fa-bell"></i>
@@ -57,7 +57,7 @@
                                  <div class="cart-list">
                                     <ul class="list">
                                        <li>
-                                          <a href="#" title="" class="cart-product-image floatleft"><img src="images/blog/1-sm.jpg" alt="Product"></a>
+                                          <a data-toggle="modal" href="#alertmodal" role="button" title="" class="cart-product-image floatleft"><img src="images/blog/1-sm.jpg" alt="Product"></a>
                                           <div class="text">
                                              <a class="close" href="#" title="close"><i class="fa fa-times-circle"></i></a>
                                              <h4>Legging Cathedral</h4>
@@ -91,8 +91,8 @@
                                     </ul>
                                     <div class="total"><span class="left">Total:</span> <span class="right">$1121.98</span></div>
                                     <div class="bottom">
-                                       <a class="btn4" href="#" title="viewcart">View Cart</a>
-                                       <a class="btn4" href="#" title="checkout">Check out</a>
+                                       <a class="btn4" data-toggle="modal" href="#alertmodal" role="button" title="viewcart">View Cart</a>
+                                       <a class="btn4" data-toggle="modal" href="#alertmodal" role="button" title="checkout">Check out</a>
                                     </div>
                                  </div>
                               </div>
@@ -194,6 +194,82 @@
 
 
 
+            <!--support area start here-->
+            <section class="support-area-two">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 accurate support-list">
+                        <div class="single-support">
+                           <div class="suport-icon mr-r20 mr-t5">
+                              <img src="images/icon/4.png" alt=""/>
+                           </div>
+                           <div class="content-support">
+                              <h4>FREE SHIPPING </h4>
+                              <p>On All Orders Of USD $50</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 accurate support-list">
+                        <div class="single-support pd-50">
+                           <div class="suport-icon mr-r20 mr-t5">
+                              <img src="images/icon/5.png" alt=""/>
+                           </div>
+                           <div class="content-support">
+                              <h4>24/7 SERVICE</h4>
+                              <p>Get Help When You Need It</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 accurate support-list">
+                        <div class="single-support pd-50">
+                           <div class="suport-icon mr-r20 mr-t5">
+                              <img src="images/icon/6.png" alt=""/>
+                           </div>
+                           <div class="content-support">
+                              <h4>24/7 SERVICE</h4>
+                              <p>Get Help When You Need It</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 accurate support-list">
+                        <div class="single-support pd-50">
+                           <div class="suport-icon mr-r20 mr-t5">
+                              <img src="images/icon/7.png" alt=""/>
+                           </div>
+                           <div class="content-support">
+                              <h4>100% MONEY BACK</h4>
+                              <p>30 Day Money Back Guarantee.</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <!--support area end here-->
+            <!--Breadcumb area start here-->
+            <section class="breadcumb-area af jarallax" style="background: url(images/collection/i-10.jpg);">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+                        <div class="breadcumb-content">
+                           <div class="breadcumb-title">
+                              <h1>Our Laest Collection</h1>
+                           </div>
+                           <div class="breadcumb-link">
+                              <ul>
+                                 <li><a href="index.html">Home</a></li>
+                                 <li>-</li>
+                                 <li><a data-toggle="modal" href="#alertmodal" role="button">Collection</a></li>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <!--Breadcumb area end here-->
+
+
 
 
 
@@ -206,9 +282,9 @@
               <div class="row">
                   <div class="col-lg-12 col-md-12 col-sm-12 mr-b50">
                       <ul class="tab-nav" role="tablist">
-                          <li role="presentation" class="active"><a href="#best-seller" aria-controls="best-seller" role="tab" data-toggle="tab">Best Seller</a></li>
-                          <li role="presentation"><a href="#popular-products" aria-controls="popular-products" role="tab" data-toggle="tab">Popular Products</a></li>
-                          <li role="presentation"><a href="#best-rated" aria-controls="best-rated" role="tab" data-toggle="tab">Best Rated Products</a></li>
+                          <li role="presentation" class="active"><a href="#best-seller" aria-controls="best-seller" role="tab" data-toggle="tab">All</a></li>
+                          <li role="presentation"><a href="#popular-products" aria-controls="popular-products" role="tab" data-toggle="tab">Beautiful ones</a></li>
+                          <li role="presentation"><a href="#best-rated" aria-controls="best-rated" role="tab" data-toggle="tab">Some other</a></li>
                       </ul>
                   </div>
               </div>
@@ -221,16 +297,16 @@
                                       <div class="item-single">
                                           <figure>
                                               <img class="normal" src="images/collection/i-1.jpg" alt="Uzbek ikat image"/>
-                                              <img class="hover" src="images/collection/i-2.jpg" alt="Uzbek ikat image"/>
+                                              <img class="hover" src="images/collection/i-1h.jpg" alt="Uzbek ikat image"/>
                                               <span class="item-position color1">New</span>
                                               <span class="price">$59</span>
                                               <ul>
-                                                  <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
-                                                  <li><a href="#"><i class="fa fa-heart-o"></i></a></li>
-                                                  <li><a href="#"><i class="fa fa-eye"></i></a></li>
+                                                  <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-shopping-cart"></i></a></li>
+                                                  <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-heart-o"></i></a></li>
+                                                  <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-eye"></i></a></li>
                                               </ul>
                                               <div class="item-description">
-                                                  <a href="#"><h4>Rolex Machine</h4></a>
+                                                  <a data-toggle="modal" href="#alertmodal" role="button"><h4>Rolex Machine</h4></a>
                                                   <p>Accessories</p>
                                               </div>
                                           </figure>
@@ -240,15 +316,15 @@
                                       <div class="item-single">
                                           <figure>
                                               <img class="normal" src="images/collection/i-2.jpg" alt="Uzbek ikat image"/>
-                                              <img class="hover" src="images/collection/i-2.jpg" alt="Uzbek ikat image"/>
+                                              <img class="hover" src="images/collection/i-2h.jpg" alt="Uzbek ikat image"/>
                                               <span class="price">$59</span>
                                               <ul>
-                                                  <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
-                                                  <li><a href="#"><i class="fa fa-heart-o"></i></a></li>
-                                                  <li><a href="#"><i class="fa fa-eye"></i></a></li>
+                                                  <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-shopping-cart"></i></a></li>
+                                                  <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-heart-o"></i></a></li>
+                                                  <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-eye"></i></a></li>
                                               </ul>
                                               <div class="item-description">
-                                                  <a href="#"><h4>Rolex Machine</h4></a>
+                                                  <a data-toggle="modal" href="#alertmodal" role="button"><h4>Rolex Machine</h4></a>
                                                   <p>Accessories</p>
                                               </div>
                                           </figure>
@@ -258,109 +334,527 @@
                                       <div class="item-single">
                                           <figure>
                                               <img class="normal" src="images/collection/i-3.jpg" alt="Uzbek ikat image"/>
-                                              <img class="hover" src="images/collection/i-3.jpg" alt="Uzbek ikat image"/>
+                                              <img class="hover" src="images/collection/i-3h.jpg" alt="Uzbek ikat image"/>
                                               <span class="item-position color2">Sale!</span>
                                               <span class="price">$59</span>
                                               <ul>
-                                                  <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
-                                                  <li><a href="#"><i class="fa fa-heart-o"></i></a></li>
-                                                  <li><a href="#"><i class="fa fa-eye"></i></a></li>
+                                                  <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-shopping-cart"></i></a></li>
+                                                  <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-heart-o"></i></a></li>
+                                                  <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-eye"></i></a></li>
                                               </ul>
                                               <div class="item-description">
-                                                  <a href="#"><h4>Rolex Machine</h4></a>
+                                                  <a data-toggle="modal" href="#alertmodal" role="button"><h4>Rolex Machine</h4></a>
                                                   <p>Accessories</p>
                                               </div>
                                           </figure>
                                       </div>
                                   </div>
-                                  <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 accurate">
+                                  <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 accurate">
                                       <div class="item-single">
                                           <figure>
                                               <img class="normal" src="images/collection/i-4.jpg" alt="Uzbek ikat image"/>
-                                              <img class="hover" src="images/product/14h.jpg" alt="Uzbek ikat image"/>
+                                              <img class="hover" src="images/collection/i-4h.jpg" alt="Uzbek ikat image"/>
                                               <span class="item-position color1">New</span>
                                               <span class="price">$59</span>
                                               <ul>
-                                                  <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
-                                                  <li><a href="#"><i class="fa fa-heart-o"></i></a></li>
-                                                  <li><a href="#"><i class="fa fa-eye"></i></a></li>
+                                                  <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-shopping-cart"></i></a></li>
+                                                  <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-heart-o"></i></a></li>
+                                                  <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-eye"></i></a></li>
                                               </ul>
                                               <div class="item-description">
-                                                  <a href="#"><h4>Rolex Machine</h4></a>
+                                                  <a data-toggle="modal" href="#alertmodal" role="button"><h4>Rolex Machine</h4></a>
                                                   <p>Accessories</p>
                                               </div>
                                           </figure>
                                       </div>
                                   </div>
-                                  <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 accurate">
+                                  <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 accurate">
                                       <div class="item-single">
                                           <figure>
-                                              <img class="normal" src="images/collection/i-5.jpg" alt=""/>
-                                              <img class="hover" src="images/product/15h.jpg" alt=""/>
+                                              <img class="normal" src="images/collection/i-5.jpg" alt="Uzbek ikat image"/>
+                                              <img class="hover" src="images/collection/i-5h.jpg" alt="Uzbek ikat image"/>
                                               <span class="item-position color1">New</span>
                                               <span class="price">$59</span>
                                               <ul>
-                                                  <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
-                                                  <li><a href="#"><i class="fa fa-heart-o"></i></a></li>
-                                                  <li><a href="#"><i class="fa fa-eye"></i></a></li>
+                                                  <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-shopping-cart"></i></a></li>
+                                                  <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-heart-o"></i></a></li>
+                                                  <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-eye"></i></a></li>
                                               </ul>
                                               <div class="item-description">
-                                                  <a href="#"><h4>Rolex Machine</h4></a>
+                                                  <a data-toggle="modal" href="#alertmodal" role="button"><h4>Rolex Machine</h4></a>
                                                   <p>Accessories</p>
                                               </div>
                                           </figure>
                                       </div>
                                   </div>
-                                  <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 accurate">
+                                  <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 accurate">
                                       <div class="item-single">
                                           <figure>
-                                              <img class="normal" src="images/product/16.jpg" alt=""/>
-                                              <img class="hover" src="images/product/16h.jpg" alt=""/>
+                                              <img class="normal" src="images/collection/i-6.jpg" alt="Uzbek ikat image"/>
+                                              <img class="hover" src="images/collection/i-6h.jpg" alt="Uzbek ikat image"/>
                                               <span class="price">$59</span>
                                               <ul>
-                                                  <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
-                                                  <li><a href="#"><i class="fa fa-heart-o"></i></a></li>
-                                                  <li><a href="#"><i class="fa fa-eye"></i></a></li>
+                                                  <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-shopping-cart"></i></a></li>
+                                                  <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-heart-o"></i></a></li>
+                                                  <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-eye"></i></a></li>
                                               </ul>
                                               <div class="item-description">
-                                                  <a href="#"><h4>Rolex Machine</h4></a>
+                                                  <a data-toggle="modal" href="#alertmodal" role="button"><h4>Rolex Machine</h4></a>
                                                   <p>Accessories</p>
                                               </div>
                                           </figure>
                                       </div>
                                   </div>
-                                  <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 accurate">
+                                  <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 accurate">
                                       <div class="item-single">
                                           <figure>
-                                              <img class="normal" src="images/product/8.jpg" alt=""/>
-                                              <img class="hover" src="images/product/8h.jpg" alt=""/>
+                                              <img class="normal" src="images/collection/i-7.jpg" alt="Uzbek ikat image"/>
+                                              <img class="hover" src="images/collection/i-7h.jpg" alt="Uzbek ikat image"/>
                                               <span class="price">$59</span>
                                               <ul>
-                                                  <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
-                                                  <li><a href="#"><i class="fa fa-heart-o"></i></a></li>
-                                                  <li><a href="#"><i class="fa fa-eye"></i></a></li>
+                                                  <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-shopping-cart"></i></a></li>
+                                                  <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-heart-o"></i></a></li>
+                                                  <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-eye"></i></a></li>
                                               </ul>
                                               <div class="item-description">
-                                                  <a href="#"><h4>Rolex Machine</h4></a>
+                                                  <a data-toggle="modal" href="#alertmodal" role="button"><h4>Rolex Machine</h4></a>
                                                   <p>Accessories</p>
                                               </div>
                                           </figure>
                                       </div>
                                   </div>
-                                  <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 accurate">
+                                  <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 accurate">
                                       <div class="item-single">
                                           <figure>
-                                              <img class="normal" src="images/product/17.jpg" alt=""/>
-                                              <img class="hover" src="images/product/17h.jpg" alt=""/>
+                                              <img class="normal" src="images/collection/i-8.jpg" alt="Uzbek ikat image"/>
+                                              <img class="hover" src="images/collection/i-8h.jpg" alt="Uzbek ikat image"/>
                                               <span class="item-position color1">New</span>
                                               <span class="price">$59</span>
                                               <ul>
-                                                  <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
-                                                  <li><a href="#"><i class="fa fa-heart-o"></i></a></li>
-                                                  <li><a href="#"><i class="fa fa-eye"></i></a></li>
+                                                  <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-shopping-cart"></i></a></li>
+                                                  <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-heart-o"></i></a></li>
+                                                  <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-eye"></i></a></li>
                                               </ul>
                                               <div class="item-description">
-                                                  <a href="#"><h4>Rolex Machine</h4></a>
+                                                  <a data-toggle="modal" href="#alertmodal" role="button"><h4>Rolex Machine</h4></a>
+                                                  <p>Accessories</p>
+                                              </div>
+                                          </figure>
+                                      </div>
+                                  </div>
+                                  <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 accurate">
+                                      <div class="item-single">
+                                          <figure>
+                                              <img class="normal" src="images/collection/i-9.jpg" alt="Uzbek ikat image"/>
+                                              <img class="hover" src="images/collection/i-9h.jpg" alt="Uzbek ikat image"/>
+                                              <span class="item-position color1">New</span>
+                                              <span class="price">$59</span>
+                                              <ul>
+                                                  <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-shopping-cart"></i></a></li>
+                                                  <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-heart-o"></i></a></li>
+                                                  <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-eye"></i></a></li>
+                                              </ul>
+                                              <div class="item-description">
+                                                  <a data-toggle="modal" href="#alertmodal" role="button"><h4>Rolex Machine</h4></a>
+                                                  <p>Accessories</p>
+                                              </div>
+                                          </figure>
+                                      </div>
+                                  </div>
+                                  <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 accurate">
+                                      <div class="item-single">
+                                          <figure>
+                                              <img class="normal" src="images/collection/i-10.jpg" alt="Uzbek ikat image"/>
+                                              <img class="hover" src="images/collection/i-10h.jpg" alt="Uzbek ikat image"/>
+                                              <span class="item-position color1">New</span>
+                                              <span class="price">$59</span>
+                                              <ul>
+                                                  <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-shopping-cart"></i></a></li>
+                                                  <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-heart-o"></i></a></li>
+                                                  <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-eye"></i></a></li>
+                                              </ul>
+                                              <div class="item-description">
+                                                  <a data-toggle="modal" href="#alertmodal" role="button"><h4>Rolex Machine</h4></a>
+                                                  <p>Accessories</p>
+                                              </div>
+                                          </figure>
+                                      </div>
+                                  </div>
+                                  <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 accurate">
+                                      <div class="item-single">
+                                          <figure>
+                                              <img class="normal" src="images/collection/i-11.jpg" alt="Uzbek ikat image"/>
+                                              <img class="hover" src="images/collection/i-11h.jpg" alt="Uzbek ikat image"/>
+                                              <span class="item-position color1">New</span>
+                                              <span class="price">$59</span>
+                                              <ul>
+                                                  <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-shopping-cart"></i></a></li>
+                                                  <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-heart-o"></i></a></li>
+                                                  <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-eye"></i></a></li>
+                                              </ul>
+                                              <div class="item-description">
+                                                  <a data-toggle="modal" href="#alertmodal" role="button"><h4>Rolex Machine</h4></a>
+                                                  <p>Accessories</p>
+                                              </div>
+                                          </figure>
+                                      </div>
+                                  </div>
+                                  <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 accurate">
+                                      <div class="item-single">
+                                          <figure>
+                                              <img class="normal" src="images/collection/i-12.jpg" alt="Uzbek ikat image"/>
+                                              <img class="hover" src="images/collection/i-12h.jpg" alt="Uzbek ikat image"/>
+                                              <span class="item-position color1">New</span>
+                                              <span class="price">$59</span>
+                                              <ul>
+                                                  <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-shopping-cart"></i></a></li>
+                                                  <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-heart-o"></i></a></li>
+                                                  <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-eye"></i></a></li>
+                                              </ul>
+                                              <div class="item-description">
+                                                  <a data-toggle="modal" href="#alertmodal" role="button"><h4>Rolex Machine</h4></a>
+                                                  <p>Accessories</p>
+                                              </div>
+                                          </figure>
+                                      </div>
+                                  </div>
+                                  <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 accurate">
+                                      <div class="item-single">
+                                          <figure>
+                                              <img class="normal" src="images/collection/i-13.jpg" alt="Uzbek ikat image"/>
+                                              <img class="hover" src="images/collection/i-13h.jpg" alt="Uzbek ikat image"/>
+                                              <span class="item-position color1">New</span>
+                                              <span class="price">$59</span>
+                                              <ul>
+                                                  <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-shopping-cart"></i></a></li>
+                                                  <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-heart-o"></i></a></li>
+                                                  <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-eye"></i></a></li>
+                                              </ul>
+                                              <div class="item-description">
+                                                  <a data-toggle="modal" href="#alertmodal" role="button"><h4>Rolex Machine</h4></a>
+                                                  <p>Accessories</p>
+                                              </div>
+                                          </figure>
+                                      </div>
+                                  </div>
+                                  <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 accurate">
+                                      <div class="item-single">
+                                          <figure>
+                                              <img class="normal" src="images/collection/i-14.jpg" alt="Uzbek ikat image"/>
+                                              <img class="hover" src="images/collection/i-14h.jpg" alt="Uzbek ikat image"/>
+                                              <span class="item-position color1">New</span>
+                                              <span class="price">$59</span>
+                                              <ul>
+                                                  <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-shopping-cart"></i></a></li>
+                                                  <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-heart-o"></i></a></li>
+                                                  <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-eye"></i></a></li>
+                                              </ul>
+                                              <div class="item-description">
+                                                  <a data-toggle="modal" href="#alertmodal" role="button"><h4>Rolex Machine</h4></a>
+                                                  <p>Accessories</p>
+                                              </div>
+                                          </figure>
+                                      </div>
+                                  </div>
+                                  <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 accurate">
+                                      <div class="item-single">
+                                          <figure>
+                                              <img class="normal" src="images/collection/i-15.jpg" alt="Uzbek ikat image"/>
+                                              <img class="hover" src="images/collection/i-15h.jpg" alt="Uzbek ikat image"/>
+                                              <span class="item-position color1">New</span>
+                                              <span class="price">$59</span>
+                                              <ul>
+                                                  <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-shopping-cart"></i></a></li>
+                                                  <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-heart-o"></i></a></li>
+                                                  <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-eye"></i></a></li>
+                                              </ul>
+                                              <div class="item-description">
+                                                  <a data-toggle="modal" href="#alertmodal" role="button"><h4>Rolex Machine</h4></a>
+                                                  <p>Accessories</p>
+                                              </div>
+                                          </figure>
+                                      </div>
+                                  </div>
+                                  <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 accurate">
+                                      <div class="item-single">
+                                          <figure>
+                                              <img class="normal" src="images/collection/i-16.jpg" alt="Uzbek ikat image"/>
+                                              <img class="hover" src="images/collection/i-16h.jpg" alt="Uzbek ikat image"/>
+                                              <span class="item-position color1">New</span>
+                                              <span class="price">$59</span>
+                                              <ul>
+                                                  <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-shopping-cart"></i></a></li>
+                                                  <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-heart-o"></i></a></li>
+                                                  <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-eye"></i></a></li>
+                                              </ul>
+                                              <div class="item-description">
+                                                  <a data-toggle="modal" href="#alertmodal" role="button"><h4>Rolex Machine</h4></a>
+                                                  <p>Accessories</p>
+                                              </div>
+                                          </figure>
+                                      </div>
+                                  </div>
+                                  <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 accurate">
+                                      <div class="item-single">
+                                          <figure>
+                                              <img class="normal" src="images/collection/i-17.jpg" alt="Uzbek ikat image"/>
+                                              <img class="hover" src="images/collection/i-17h.jpg" alt="Uzbek ikat image"/>
+                                              <span class="item-position color1">New</span>
+                                              <span class="price">$59</span>
+                                              <ul>
+                                                  <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-shopping-cart"></i></a></li>
+                                                  <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-heart-o"></i></a></li>
+                                                  <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-eye"></i></a></li>
+                                              </ul>
+                                              <div class="item-description">
+                                                  <a data-toggle="modal" href="#alertmodal" role="button"><h4>Rolex Machine</h4></a>
+                                                  <p>Accessories</p>
+                                              </div>
+                                          </figure>
+                                      </div>
+                                  </div>
+                                  <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 accurate">
+                                      <div class="item-single">
+                                          <figure>
+                                              <img class="normal" src="images/collection/i-17.jpg" alt="Uzbek ikat image"/>
+                                              <img class="hover" src="images/collection/i-17h.jpg" alt="Uzbek ikat image"/>
+                                              <span class="item-position color1">New</span>
+                                              <span class="price">$59</span>
+                                              <ul>
+                                                  <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-shopping-cart"></i></a></li>
+                                                  <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-heart-o"></i></a></li>
+                                                  <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-eye"></i></a></li>
+                                              </ul>
+                                              <div class="item-description">
+                                                  <a data-toggle="modal" href="#alertmodal" role="button"><h4>Rolex Machine</h4></a>
+                                                  <p>Accessories</p>
+                                              </div>
+                                          </figure>
+                                      </div>
+                                  </div>
+                                  <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 accurate">
+                                      <div class="item-single">
+                                          <figure>
+                                              <img class="normal" src="images/collection/i-18.jpg" alt="Uzbek ikat image"/>
+                                              <img class="hover" src="images/collection/i-18h.jpg" alt="Uzbek ikat image"/>
+                                              <span class="item-position color1">New</span>
+                                              <span class="price">$59</span>
+                                              <ul>
+                                                  <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-shopping-cart"></i></a></li>
+                                                  <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-heart-o"></i></a></li>
+                                                  <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-eye"></i></a></li>
+                                              </ul>
+                                              <div class="item-description">
+                                                  <a data-toggle="modal" href="#alertmodal" role="button"><h4>Rolex Machine</h4></a>
+                                                  <p>Accessories</p>
+                                              </div>
+                                          </figure>
+                                      </div>
+                                  </div>
+                                  <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 accurate">
+                                      <div class="item-single">
+                                          <figure>
+                                              <img class="normal" src="images/collection/i-19.jpg" alt="Uzbek ikat image"/>
+                                              <img class="hover" src="images/collection/i-19h.jpg" alt="Uzbek ikat image"/>
+                                              <span class="item-position color1">New</span>
+                                              <span class="price">$59</span>
+                                              <ul>
+                                                  <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-shopping-cart"></i></a></li>
+                                                  <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-heart-o"></i></a></li>
+                                                  <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-eye"></i></a></li>
+                                              </ul>
+                                              <div class="item-description">
+                                                  <a data-toggle="modal" href="#alertmodal" role="button"><h4>Rolex Machine</h4></a>
+                                                  <p>Accessories</p>
+                                              </div>
+                                          </figure>
+                                      </div>
+                                  </div>
+                                  <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 accurate">
+                                      <div class="item-single">
+                                          <figure>
+                                              <img class="normal" src="images/collection/i-20.jpg" alt="Uzbek ikat image"/>
+                                              <img class="hover" src="images/collection/i-20h.jpg" alt="Uzbek ikat image"/>
+                                              <span class="item-position color1">New</span>
+                                              <span class="price">$59</span>
+                                              <ul>
+                                                  <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-shopping-cart"></i></a></li>
+                                                  <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-heart-o"></i></a></li>
+                                                  <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-eye"></i></a></li>
+                                              </ul>
+                                              <div class="item-description">
+                                                  <a data-toggle="modal" href="#alertmodal" role="button"><h4>Rolex Machine</h4></a>
+                                                  <p>Accessories</p>
+                                              </div>
+                                          </figure>
+                                      </div>
+                                  </div>
+                                  <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 accurate">
+                                      <div class="item-single">
+                                          <figure>
+                                              <img class="normal" src="images/collection/i-21.jpg" alt="Uzbek ikat image"/>
+                                              <img class="hover" src="images/collection/i-21h.jpg" alt="Uzbek ikat image"/>
+                                              <span class="item-position color1">New</span>
+                                              <span class="price">$59</span>
+                                              <ul>
+                                                  <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-shopping-cart"></i></a></li>
+                                                  <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-heart-o"></i></a></li>
+                                                  <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-eye"></i></a></li>
+                                              </ul>
+                                              <div class="item-description">
+                                                  <a data-toggle="modal" href="#alertmodal" role="button"><h4>Rolex Machine</h4></a>
+                                                  <p>Accessories</p>
+                                              </div>
+                                          </figure>
+                                      </div>
+                                  </div>
+                                  <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 accurate">
+                                      <div class="item-single">
+                                          <figure>
+                                              <img class="normal" src="images/collection/i-22.jpg" alt="Uzbek ikat image"/>
+                                              <img class="hover" src="images/collection/i-22h.jpg" alt="Uzbek ikat image"/>
+                                              <span class="item-position color1">New</span>
+                                              <span class="price">$59</span>
+                                              <ul>
+                                                  <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-shopping-cart"></i></a></li>
+                                                  <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-heart-o"></i></a></li>
+                                                  <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-eye"></i></a></li>
+                                              </ul>
+                                              <div class="item-description">
+                                                  <a data-toggle="modal" href="#alertmodal" role="button"><h4>Rolex Machine</h4></a>
+                                                  <p>Accessories</p>
+                                              </div>
+                                          </figure>
+                                      </div>
+                                  </div>
+                                  <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 accurate">
+                                      <div class="item-single">
+                                          <figure>
+                                              <img class="normal" src="images/collection/i-23.jpg" alt="Uzbek ikat image"/>
+                                              <img class="hover" src="images/collection/i-23h.jpg" alt="Uzbek ikat image"/>
+                                              <span class="item-position color1">New</span>
+                                              <span class="price">$59</span>
+                                              <ul>
+                                                  <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-shopping-cart"></i></a></li>
+                                                  <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-heart-o"></i></a></li>
+                                                  <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-eye"></i></a></li>
+                                              </ul>
+                                              <div class="item-description">
+                                                  <a data-toggle="modal" href="#alertmodal" role="button"><h4>Rolex Machine</h4></a>
+                                                  <p>Accessories</p>
+                                              </div>
+                                          </figure>
+                                      </div>
+                                  </div>
+                                  <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 accurate">
+                                      <div class="item-single">
+                                          <figure>
+                                              <img class="normal" src="images/collection/i-24.jpg" alt="Uzbek ikat image"/>
+                                              <img class="hover" src="images/collection/i-24h.jpg" alt="Uzbek ikat image"/>
+                                              <span class="item-position color1">New</span>
+                                              <span class="price">$59</span>
+                                              <ul>
+                                                  <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-shopping-cart"></i></a></li>
+                                                  <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-heart-o"></i></a></li>
+                                                  <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-eye"></i></a></li>
+                                              </ul>
+                                              <div class="item-description">
+                                                  <a data-toggle="modal" href="#alertmodal" role="button"><h4>Rolex Machine</h4></a>
+                                                  <p>Accessories</p>
+                                              </div>
+                                          </figure>
+                                      </div>
+                                  </div>
+                                  <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 accurate">
+                                      <div class="item-single">
+                                          <figure>
+                                              <img class="normal" src="images/collection/i-25.jpg" alt="Uzbek ikat image"/>
+                                              <img class="hover" src="images/collection/i-25h.jpg" alt="Uzbek ikat image"/>
+                                              <span class="item-position color1">New</span>
+                                              <span class="price">$59</span>
+                                              <ul>
+                                                  <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-shopping-cart"></i></a></li>
+                                                  <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-heart-o"></i></a></li>
+                                                  <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-eye"></i></a></li>
+                                              </ul>
+                                              <div class="item-description">
+                                                  <a data-toggle="modal" href="#alertmodal" role="button"><h4>Rolex Machine</h4></a>
+                                                  <p>Accessories</p>
+                                              </div>
+                                          </figure>
+                                      </div>
+                                  </div>
+                                  <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 accurate">
+                                      <div class="item-single">
+                                          <figure>
+                                              <img class="normal" src="images/collection/i-26.jpg" alt="Uzbek ikat image"/>
+                                              <img class="hover" src="images/collection/i-26h.jpg" alt="Uzbek ikat image"/>
+                                              <span class="item-position color1">New</span>
+                                              <span class="price">$59</span>
+                                              <ul>
+                                                  <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-shopping-cart"></i></a></li>
+                                                  <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-heart-o"></i></a></li>
+                                                  <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-eye"></i></a></li>
+                                              </ul>
+                                              <div class="item-description">
+                                                  <a data-toggle="modal" href="#alertmodal" role="button"><h4>Rolex Machine</h4></a>
+                                                  <p>Accessories</p>
+                                              </div>
+                                          </figure>
+                                      </div>
+                                  </div>
+                                  <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 accurate">
+                                      <div class="item-single">
+                                          <figure>
+                                              <img class="normal" src="images/collection/i-27.jpg" alt="Uzbek ikat image"/>
+                                              <img class="hover" src="images/collection/i-27h.jpg" alt="Uzbek ikat image"/>
+                                              <span class="item-position color1">New</span>
+                                              <span class="price">$59</span>
+                                              <ul>
+                                                  <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-shopping-cart"></i></a></li>
+                                                  <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-heart-o"></i></a></li>
+                                                  <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-eye"></i></a></li>
+                                              </ul>
+                                              <div class="item-description">
+                                                  <a data-toggle="modal" href="#alertmodal" role="button"><h4>Rolex Machine</h4></a>
+                                                  <p>Accessories</p>
+                                              </div>
+                                          </figure>
+                                      </div>
+                                  </div>
+                                  <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 accurate">
+                                      <div class="item-single">
+                                          <figure>
+                                              <img class="normal" src="images/collection/i-28.jpg" alt="Uzbek ikat image"/>
+                                              <img class="hover" src="images/collection/i-28h.jpg" alt="Uzbek ikat image"/>
+                                              <span class="item-position color1">New</span>
+                                              <span class="price">$59</span>
+                                              <ul>
+                                                  <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-shopping-cart"></i></a></li>
+                                                  <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-heart-o"></i></a></li>
+                                                  <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-eye"></i></a></li>
+                                              </ul>
+                                              <div class="item-description">
+                                                  <a data-toggle="modal" href="#alertmodal" role="button"><h4>Rolex Machine</h4></a>
+                                                  <p>Accessories</p>
+                                              </div>
+                                          </figure>
+                                      </div>
+                                  </div>
+                                  <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 accurate">
+                                      <div class="item-single">
+                                          <figure>
+                                              <img class="normal" src="images/collection/i-29.jpg" alt="Uzbek ikat image"/>
+                                              <img class="hover" src="images/collection/i-29h.jpg" alt="Uzbek ikat image"/>
+                                              <span class="item-position color1">New</span>
+                                              <span class="price">$59</span>
+                                              <ul>
+                                                  <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-shopping-cart"></i></a></li>
+                                                  <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-heart-o"></i></a></li>
+                                                  <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-eye"></i></a></li>
+                                              </ul>
+                                              <div class="item-description">
+                                                  <a data-toggle="modal" href="#alertmodal" role="button"><h4>Rolex Machine</h4></a>
                                                   <p>Accessories</p>
                                               </div>
                                           </figure>
@@ -370,85 +864,181 @@
                           </div>
                           <div class="tab-pane" id="popular-products">
                               <div class="row accurate">
-                                  <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 accurate">
-                                      <div class="item-single">
-                                          <figure>
-                                              <img class="normal" src="images/product/13.jpg" alt=""/>
-                                              <img class="hover" src="images/product/13h.jpg" alt=""/>
-                                              <span class="item-position color2">Sale!</span>
-                                              <span class="price">$59</span>
-                                              <ul>
-                                                  <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
-                                                  <li><a href="#"><i class="fa fa-heart-o"></i></a></li>
-                                                  <li><a href="#"><i class="fa fa-eye"></i></a></li>
-                                              </ul>
-                                              <div class="item-description">
-                                                  <a href="#"><h4>Rolex Machine</h4></a>
-                                                  <p>Accessories</p>
-                                              </div>
-                                          </figure>
-                                      </div>
-                                  </div>
-                                  <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 accurate">
-                                      <div class="item-single">
-                                          <figure>
-                                              <img class="normal" src="images/product/14.jpg" alt=""/>
-                                              <img class="hover" src="images/product/14h.jpg" alt=""/>
-                                              <span class="item-position color1">New</span>
-                                              <span class="price">$59</span>
-                                              <ul>
-                                                  <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
-                                                  <li><a href="#"><i class="fa fa-heart-o"></i></a></li>
-                                                  <li><a href="#"><i class="fa fa-eye"></i></a></li>
-                                              </ul>
-                                              <div class="item-description">
-                                                  <a href="#"><h4>Rolex Machine</h4></a>
-                                                  <p>Accessories</p>
-                                              </div>
-                                          </figure>
-                                      </div>
-                                  </div>
+                                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 accurate">
+                                    <div class="item-single">
+                                        <figure>
+                                            <img class="normal" src="images/collection/i-27.jpg" alt="Uzbek ikat image"/>
+                                            <img class="hover" src="images/collection/i-27h.jpg" alt="Uzbek ikat image"/>
+                                            <span class="item-position color1">New</span>
+                                            <span class="price">$59</span>
+                                            <ul>
+                                                <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-shopping-cart"></i></a></li>
+                                                <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-heart-o"></i></a></li>
+                                                <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-eye"></i></a></li>
+                                            </ul>
+                                            <div class="item-description">
+                                                <a data-toggle="modal" href="#alertmodal" role="button"><h4>Rolex Machine</h4></a>
+                                                <p>Accessories</p>
+                                            </div>
+                                        </figure>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 accurate">
+                                    <div class="item-single">
+                                        <figure>
+                                            <img class="normal" src="images/collection/i-28.jpg" alt="Uzbek ikat image"/>
+                                            <img class="hover" src="images/collection/i-28h.jpg" alt="Uzbek ikat image"/>
+                                            <span class="item-position color1">New</span>
+                                            <span class="price">$59</span>
+                                            <ul>
+                                                <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-shopping-cart"></i></a></li>
+                                                <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-heart-o"></i></a></li>
+                                                <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-eye"></i></a></li>
+                                            </ul>
+                                            <div class="item-description">
+                                                <a data-toggle="modal" href="#alertmodal" role="button"><h4>Rolex Machine</h4></a>
+                                                <p>Accessories</p>
+                                            </div>
+                                        </figure>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 accurate">
+                                    <div class="item-single">
+                                        <figure>
+                                            <img class="normal" src="images/collection/i-29.jpg" alt="Uzbek ikat image"/>
+                                            <img class="hover" src="images/collection/i-29h.jpg" alt="Uzbek ikat image"/>
+                                            <span class="item-position color1">New</span>
+                                            <span class="price">$59</span>
+                                            <ul>
+                                                <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-shopping-cart"></i></a></li>
+                                                <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-heart-o"></i></a></li>
+                                                <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-eye"></i></a></li>
+                                            </ul>
+                                            <div class="item-description">
+                                                <a data-toggle="modal" href="#alertmodal" role="button"><h4>Rolex Machine</h4></a>
+                                                <p>Accessories</p>
+                                            </div>
+                                        </figure>
+                                    </div>
+                                </div>
                               </div>
                           </div>
                           <div class="tab-pane" id="best-rated">
                               <div class="row accurate">
-                                  <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 accurate">
-                                      <div class="item-single">
-                                          <figure>
-                                              <img class="normal" src="images/product/12.jpg" alt=""/>
-                                              <img class="hover" src="images/product/12h.jpg" alt=""/>
-                                              <span class="item-position color1">New</span>
-                                              <span class="price">$59</span>
-                                              <ul>
-                                                  <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
-                                                  <li><a href="#"><i class="fa fa-heart-o"></i></a></li>
-                                                  <li><a href="#"><i class="fa fa-eye"></i></a></li>
-                                              </ul>
-                                              <div class="item-description">
-                                                  <a href="#"><h4>Rolex Machine</h4></a>
-                                                  <p>Accessories</p>
-                                              </div>
-                                          </figure>
-                                      </div>
-                                  </div>
-                                  <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 accurate">
-                                      <div class="item-single">
-                                          <figure>
-                                              <img class="normal" src="images/product/11.jpg" alt=""/>
-                                              <img class="hover" src="images/product/11h.jpg" alt=""/>
-                                              <span class="price">$59</span>
-                                              <ul>
-                                                  <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
-                                                  <li><a href="#"><i class="fa fa-heart-o"></i></a></li>
-                                                  <li><a href="#"><i class="fa fa-eye"></i></a></li>
-                                              </ul>
-                                              <div class="item-description">
-                                                  <a href="#"><h4>Rolex Machine</h4></a>
-                                                  <p>Accessories</p>
-                                              </div>
-                                          </figure>
-                                      </div>
-                                  </div>
+                                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 accurate">
+                                    <div class="item-single">
+                                        <figure>
+                                            <img class="normal" src="images/collection/i-9.jpg" alt="Uzbek ikat image"/>
+                                            <img class="hover" src="images/collection/i-9h.jpg" alt="Uzbek ikat image"/>
+                                            <span class="item-position color1">New</span>
+                                            <span class="price">$59</span>
+                                            <ul>
+                                                <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-shopping-cart"></i></a></li>
+                                                <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-heart-o"></i></a></li>
+                                                <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-eye"></i></a></li>
+                                            </ul>
+                                            <div class="item-description">
+                                                <a data-toggle="modal" href="#alertmodal" role="button"><h4>Rolex Machine</h4></a>
+                                                <p>Accessories</p>
+                                            </div>
+                                        </figure>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 accurate">
+                                    <div class="item-single">
+                                        <figure>
+                                            <img class="normal" src="images/collection/i-10.jpg" alt="Uzbek ikat image"/>
+                                            <img class="hover" src="images/collection/i-10h.jpg" alt="Uzbek ikat image"/>
+                                            <span class="item-position color1">New</span>
+                                            <span class="price">$59</span>
+                                            <ul>
+                                                <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-shopping-cart"></i></a></li>
+                                                <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-heart-o"></i></a></li>
+                                                <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-eye"></i></a></li>
+                                            </ul>
+                                            <div class="item-description">
+                                                <a data-toggle="modal" href="#alertmodal" role="button"><h4>Rolex Machine</h4></a>
+                                                <p>Accessories</p>
+                                            </div>
+                                        </figure>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 accurate">
+                                    <div class="item-single">
+                                        <figure>
+                                            <img class="normal" src="images/collection/i-11.jpg" alt="Uzbek ikat image"/>
+                                            <img class="hover" src="images/collection/i-11h.jpg" alt="Uzbek ikat image"/>
+                                            <span class="item-position color1">New</span>
+                                            <span class="price">$59</span>
+                                            <ul>
+                                                <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-shopping-cart"></i></a></li>
+                                                <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-heart-o"></i></a></li>
+                                                <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-eye"></i></a></li>
+                                            </ul>
+                                            <div class="item-description">
+                                                <a data-toggle="modal" href="#alertmodal" role="button"><h4>Rolex Machine</h4></a>
+                                                <p>Accessories</p>
+                                            </div>
+                                        </figure>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 accurate">
+                                    <div class="item-single">
+                                        <figure>
+                                            <img class="normal" src="images/collection/i-12.jpg" alt="Uzbek ikat image"/>
+                                            <img class="hover" src="images/collection/i-12h.jpg" alt="Uzbek ikat image"/>
+                                            <span class="item-position color1">New</span>
+                                            <span class="price">$59</span>
+                                            <ul>
+                                                <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-shopping-cart"></i></a></li>
+                                                <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-heart-o"></i></a></li>
+                                                <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-eye"></i></a></li>
+                                            </ul>
+                                            <div class="item-description">
+                                                <a data-toggle="modal" href="#alertmodal" role="button"><h4>Rolex Machine</h4></a>
+                                                <p>Accessories</p>
+                                            </div>
+                                        </figure>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 accurate">
+                                    <div class="item-single">
+                                        <figure>
+                                            <img class="normal" src="images/collection/i-13.jpg" alt="Uzbek ikat image"/>
+                                            <img class="hover" src="images/collection/i-13h.jpg" alt="Uzbek ikat image"/>
+                                            <span class="item-position color1">New</span>
+                                            <span class="price">$59</span>
+                                            <ul>
+                                                <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-shopping-cart"></i></a></li>
+                                                <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-heart-o"></i></a></li>
+                                                <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-eye"></i></a></li>
+                                            </ul>
+                                            <div class="item-description">
+                                                <a data-toggle="modal" href="#alertmodal" role="button"><h4>Rolex Machine</h4></a>
+                                                <p>Accessories</p>
+                                            </div>
+                                        </figure>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 accurate">
+                                    <div class="item-single">
+                                        <figure>
+                                            <img class="normal" src="images/collection/i-14.jpg" alt="Uzbek ikat image"/>
+                                            <img class="hover" src="images/collection/i-14h.jpg" alt="Uzbek ikat image"/>
+                                            <span class="item-position color1">New</span>
+                                            <span class="price">$59</span>
+                                            <ul>
+                                                <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-shopping-cart"></i></a></li>
+                                                <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-heart-o"></i></a></li>
+                                                <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-eye"></i></a></li>
+                                            </ul>
+                                            <div class="item-description">
+                                                <a data-toggle="modal" href="#alertmodal" role="button"><h4>Rolex Machine</h4></a>
+                                                <p>Accessories</p>
+                                            </div>
+                                        </figure>
+                                    </div>
+                                </div>
                               </div>
                           </div>
                       </div>
@@ -466,220 +1056,6 @@
 
 
 
-
-
-
-      <!--support area start here-->
-      <section class="support-area-two">
-         <div class="container">
-            <div class="row">
-               <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 accurate support-list">
-                  <div class="single-support">
-                     <div class="suport-icon mr-r20 mr-t5">
-                        <img src="images/icon/4.png" alt=""/>
-                     </div>
-                     <div class="content-support">
-                        <h4>FREE SHIPPING </h4>
-                        <p>On All Orders Of USD $50</p>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 accurate support-list">
-                  <div class="single-support pd-50">
-                     <div class="suport-icon mr-r20 mr-t5">
-                        <img src="images/icon/5.png" alt=""/>
-                     </div>
-                     <div class="content-support">
-                        <h4>24/7 SERVICE</h4>
-                        <p>Get Help When You Need It</p>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 accurate support-list">
-                  <div class="single-support pd-50">
-                     <div class="suport-icon mr-r20 mr-t5">
-                        <img src="images/icon/6.png" alt=""/>
-                     </div>
-                     <div class="content-support">
-                        <h4>24/7 SERVICE</h4>
-                        <p>Get Help When You Need It</p>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 accurate support-list">
-                  <div class="single-support pd-50">
-                     <div class="suport-icon mr-r20 mr-t5">
-                        <img src="images/icon/7.png" alt=""/>
-                     </div>
-                     <div class="content-support">
-                        <h4>100% MONEY BACK</h4>
-                        <p>30 Day Money Back Guarantee.</p>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </section>
-      <!--support area end here-->
-      <!--Breadcumb area start here-->
-      <section class="breadcumb-area af jarallax" style="background: url(images/breadcumb/1.jpg);">
-         <div class="container">
-            <div class="row">
-               <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
-                  <div class="breadcumb-content">
-                     <div class="breadcumb-title">
-                        <h1>Our Laest Blog</h1>
-                     </div>
-                     <div class="breadcumb-link">
-                        <ul>
-                           <li><a href="index.html">Home</a></li>
-                           <li>-</li>
-                           <li><a data-toggle="modal" href="#alertmodal" role="button">Collection</a></li>
-                        </ul>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </section>
-      <!--Breadcumb area end here-->
-      <!--Blog area start here-->
-      <section class="blog-page-area section">
-         <div class="container">
-            <div class="row accurate">
-               <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                  <div class="item-single">
-                     <figure>
-                        <img class="normal" src="images/blog/4.jpg" alt=""/>
-                        <ul>
-                            <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
-                            <li><a href="#"><i class="fa fa-heart-o"></i></a></li>
-                            <li><a href="#"><i class="fa fa-eye"></i></a></li>
-                        </ul>
-                        <div class="blog-con">
-                           <div class="bg-pos">
-                              <a href="#">
-                                 <h3>2017 Fashion Strome</h3>
-                              </a>
-                              <ul class="list-inline">
-                                 <li><a href="#">22/05/2017</a></li>
-                                 <li><a href="#"><i class="fa fa-comment-o"></i><span>03</span></a></li>
-                                 <li><a href="#"><i class="fa fa-heart-o"></i><span>33</span></a></li>
-                              </ul>
-                           </div>
-                        </div>
-                     </figure>
-                  </div>
-               </div>
-               <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                  <div class="single-blog mr-b30 text-center">
-                     <figure>
-                        <img src="images/blog/5.jpg" alt=""/>
-                        <div class="blog-con">
-                           <div class="bg-pos">
-                              <a href="#">
-                                 <h3>2017 Fashion Strome</h3>
-                              </a>
-                              <ul class="list-inline">
-                                 <li><a href="#">22/05/2017</a></li>
-                                 <li><a href="#"><i class="fa fa-comment-o"></i><span>03</span></a></li>
-                                 <li><a href="#"><i class="fa fa-heart-o"></i><span>33</span></a></li>
-                              </ul>
-                           </div>
-                        </div>
-                     </figure>
-                  </div>
-               </div>
-               <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                  <div class="single-blog mr-b30 text-center">
-                     <figure>
-                        <img src="images/blog/6.jpg" alt=""/>
-                        <div class="blog-con">
-                           <div class="bg-pos">
-                              <a href="#">
-                                 <h3>2017 Fashion Strome</h3>
-                              </a>
-                              <ul class="list-inline">
-                                 <li><a href="#">22/05/2017</a></li>
-                                 <li><a href="#"><i class="fa fa-comment-o"></i><span>03</span></a></li>
-                                 <li><a href="#"><i class="fa fa-heart-o"></i><span>33</span></a></li>
-                              </ul>
-                           </div>
-                        </div>
-                     </figure>
-                  </div>
-               </div>
-               <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                  <div class="single-blog mr-b30 text-center">
-                     <figure>
-                        <img src="images/blog/7.jpg" alt=""/>
-                        <div class="blog-con">
-                           <div class="bg-pos">
-                              <a href="#">
-                                 <h3>2017 Fashion Strome</h3>
-                              </a>
-                              <ul class="list-inline">
-                                 <li><a href="#">22/05/2017</a></li>
-                                 <li><a href="#"><i class="fa fa-comment-o"></i><span>03</span></a></li>
-                                 <li><a href="#"><i class="fa fa-heart-o"></i><span>33</span></a></li>
-                              </ul>
-                           </div>
-                        </div>
-                     </figure>
-                  </div>
-               </div>
-               <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                  <div class="single-blog mr-b30 text-center">
-                     <figure>
-                        <img src="images/blog/8.jpg" alt=""/>
-                        <div class="blog-con">
-                           <div class="bg-pos">
-                              <a href="#">
-                                 <h3>2017 Fashion Strome</h3>
-                              </a>
-                              <ul class="list-inline">
-                                 <li><a href="#">22/05/2017</a></li>
-                                 <li><a href="#"><i class="fa fa-comment-o"></i><span>03</span></a></li>
-                                 <li><a href="#"><i class="fa fa-heart-o"></i><span>33</span></a></li>
-                              </ul>
-                           </div>
-                        </div>
-                     </figure>
-                  </div>
-               </div>
-               <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                  <div class="single-blog mr-b30 text-center">
-                     <figure>
-                        <img src="images/blog/9.jpg" alt=""/>
-                        <div class="blog-con">
-                           <div class="bg-pos">
-                              <a href="#">
-                                 <h3>2017 Fashion Strome</h3>
-                              </a>
-                              <ul class="list-inline">
-                                 <li><a href="#">22/05/2017</a></li>
-                                 <li><a href="#"><i class="fa fa-comment-o"></i><span>03</span></a></li>
-                                 <li><a href="#"><i class="fa fa-heart-o"></i><span>33</span></a></li>
-                              </ul>
-                           </div>
-                        </div>
-                     </figure>
-                  </div>
-               </div>
-               <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
-                  <div class="pagination">
-                     <ul class="list-inline">
-                        <li class="active"><a href="#">1</a></li>
-                        <li><a href="#">2</a></li>
-                        <li><a href="#">3</a></li>
-                        <li><a href="#">4</a></li>
-                     </ul>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </section>
-      <!--Blog area end here-->
       <!--Client area start here-->
       <div class="client-area">
          <div class="container-fluid">
@@ -687,49 +1063,49 @@
                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
                   <div class="client-slider">
                      <div class="single-client">
-                        <a href="#"><img src="images/client/1.png" alt=""/></a>
+                        <a data-toggle="modal" href="#alertmodal" role="button"><img src="images/client/1.png" alt=""/></a>
                      </div>
                      <div class="single-client">
-                        <a href="#"><img src="images/client/2.png" alt=""/></a>
+                        <a data-toggle="modal" href="#alertmodal" role="button"><img src="images/client/2.png" alt=""/></a>
                      </div>
                      <div class="single-client">
-                        <a href="#"><img src="images/client/3.png" alt=""/></a>
+                        <a data-toggle="modal" href="#alertmodal" role="button"><img src="images/client/3.png" alt=""/></a>
                      </div>
                      <div class="single-client">
-                        <a href="#"><img src="images/client/4.png" alt=""/></a>
+                        <a data-toggle="modal" href="#alertmodal" role="button"><img src="images/client/4.png" alt=""/></a>
                      </div>
                      <div class="single-client">
-                        <a href="#"><img src="images/client/5.png" alt=""/></a>
+                        <a data-toggle="modal" href="#alertmodal" role="button"><img src="images/client/5.png" alt=""/></a>
                      </div>
                      <div class="single-client">
-                        <a href="#"><img src="images/client/6.png" alt=""/></a>
+                        <a data-toggle="modal" href="#alertmodal" role="button"><img src="images/client/6.png" alt=""/></a>
                      </div>
                      <div class="single-client">
-                        <a href="#"><img src="images/client/7.png" alt=""/></a>
+                        <a data-toggle="modal" href="#alertmodal" role="button"><img src="images/client/7.png" alt=""/></a>
                      </div>
                      <div class="single-client">
-                        <a href="#"><img src="images/client/8.png" alt=""/></a>
+                        <a data-toggle="modal" href="#alertmodal" role="button"><img src="images/client/8.png" alt=""/></a>
                      </div>
                      <div class="single-client">
-                        <a href="#"><img src="images/client/9.png" alt=""/></a>
+                        <a data-toggle="modal" href="#alertmodal" role="button"><img src="images/client/9.png" alt=""/></a>
                      </div>
                      <div class="single-client">
-                        <a href="#"><img src="images/client/10.png" alt=""/></a>
+                        <a data-toggle="modal" href="#alertmodal" role="button"><img src="images/client/10.png" alt=""/></a>
                      </div>
                      <div class="single-client">
-                        <a href="#"><img src="images/client/1.png" alt=""/></a>
+                        <a data-toggle="modal" href="#alertmodal" role="button"><img src="images/client/1.png" alt=""/></a>
                      </div>
                      <div class="single-client">
-                        <a href="#"><img src="images/client/2.png" alt=""/></a>
+                        <a data-toggle="modal" href="#alertmodal" role="button"><img src="images/client/2.png" alt=""/></a>
                      </div>
                      <div class="single-client">
-                        <a href="#"><img src="images/client/3.png" alt=""/></a>
+                        <a data-toggle="modal" href="#alertmodal" role="button"><img src="images/client/3.png" alt=""/></a>
                      </div>
                      <div class="single-client">
-                        <a href="#"><img src="images/client/4.png" alt=""/></a>
+                        <a data-toggle="modal" href="#alertmodal" role="button"><img src="images/client/4.png" alt=""/></a>
                      </div>
                      <div class="single-client">
-                        <a href="#"><img src="images/client/5.png" alt=""/></a>
+                        <a data-toggle="modal" href="#alertmodal" role="button"><img src="images/client/5.png" alt=""/></a>
                      </div>
                   </div>
                </div>
@@ -746,12 +1122,12 @@
                      <div class="footer-link widget">
                         <h4>Information</h4>
                         <ul class="link-list">
-                           <li><a href="#">About us</a></li>
-                           <li><a href="#">Customer Service</a></li>
-                           <li><a href="#">Manufacturers</a></li>
-                           <li><a href="#">Privacy policy</a></li>
-                           <li><a href="#">Terms & condition</a></li>
-                           <li><a href="#">Blog</a></li>
+                           <li><a data-toggle="modal" href="#alertmodal" role="button">About us</a></li>
+                           <li><a data-toggle="modal" href="#alertmodal" role="button">Customer Service</a></li>
+                           <li><a data-toggle="modal" href="#alertmodal" role="button">Manufacturers</a></li>
+                           <li><a data-toggle="modal" href="#alertmodal" role="button">Privacy policy</a></li>
+                           <li><a data-toggle="modal" href="#alertmodal" role="button">Terms & condition</a></li>
+                           <li><a data-toggle="modal" href="#alertmodal" role="button">Blog</a></li>
                         </ul>
                      </div>
                   </div>
@@ -759,11 +1135,11 @@
                      <div class="footer-link widget">
                         <h4>My Account</h4>
                         <ul class="link-list">
-                           <li><a href="#">My Account</a></li>
-                           <li><a href="#">Login</a></li>
-                           <li><a href="#">Order History</a></li>
-                           <li><a href="#">Wish List</a></li>
-                           <li><a href="#">View Cart</a></li>
+                           <li><a data-toggle="modal" href="#alertmodal" role="button">My Account</a></li>
+                           <li><a data-toggle="modal" href="#alertmodal" role="button">Login</a></li>
+                           <li><a data-toggle="modal" href="#alertmodal" role="button">Order History</a></li>
+                           <li><a data-toggle="modal" href="#alertmodal" role="button">Wish List</a></li>
+                           <li><a data-toggle="modal" href="#alertmodal" role="button">View Cart</a></li>
                         </ul>
                      </div>
                   </div>
@@ -771,11 +1147,11 @@
                      <div class="footer-link widget">
                         <h4>Shopping guide</h4>
                         <ul class="link-list">
-                           <li><a href="#">FAQs</a></li>
-                           <li><a href="#">Payment</a></li>
-                           <li><a href="#">Track your order</a></li>
-                           <li><a href="#">Return policy</a></li>
-                           <li><a href="#">Warranty</a></li>
+                           <li><a data-toggle="modal" href="#alertmodal" role="button">FAQs</a></li>
+                           <li><a data-toggle="modal" href="#alertmodal" role="button">Payment</a></li>
+                           <li><a data-toggle="modal" href="#alertmodal" role="button">Track your order</a></li>
+                           <li><a data-toggle="modal" href="#alertmodal" role="button">Return policy</a></li>
+                           <li><a data-toggle="modal" href="#alertmodal" role="button">Warranty</a></li>
                         </ul>
                      </div>
                   </div>
@@ -790,12 +1166,12 @@
                         </form>
                         <p class="social-head">Follow Us On:</p>
                         <ul class="socila-link">
-                           <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                           <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                           <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                           <li><a href="#"><i class="fa fa-pinterest-p"></i></a></li>
-                           <li><a href="#"><i class="fa fa-skype"></i></a></li>
-                           <li><a href="#"><i class="fa fa-youtube-play"></i></a></li>
+                           <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-facebook"></i></a></li>
+                           <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-twitter"></i></a></li>
+                           <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-linkedin"></i></a></li>
+                           <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-pinterest-p"></i></a></li>
+                           <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-skype"></i></a></li>
+                           <li><a data-toggle="modal" href="#alertmodal" role="button"><i class="fa fa-youtube-play"></i></a></li>
                         </ul>
                      </div>
                   </div>
@@ -807,7 +1183,7 @@
                <div class="row">
                   <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                      <div class="copyright">
-                        <p>© 2017 Allo. All Rights Reserved. Designed by <a href="#">themelocation</a></p>
+                        <p>© 2017 Allo. All Rights Reserved. Designed by <a href="index.html">Uzbek ikat team</a></p>
                      </div>
                   </div>
                   <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
