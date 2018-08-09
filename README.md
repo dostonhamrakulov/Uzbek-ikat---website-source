@@ -1,12 +1,12 @@
 # Doston Hamrakulov
 
 ## Uzbek ikat Website 
-This is source code of <a href="https://uzbekikat.com">Uzbekikat.com</a> and regularly I update this source, so that you will not miss. But I do not share images and you can only get code.
+This is source code of <a href="http://uzbekikat.com/index.html">Uzbekikat.com</a> and regularly I update this source, so that you will not miss. But I do not share images and you can only get code.
 
 
 ### Programming languages and frameworks
 ```[JavaScript, HTML, CSS, Bootstrap]
-// Java 
+// JavaScript, HTML, CSS, Bootstrap 
 ```
 
 ### IDE
