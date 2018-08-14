@@ -3870,7 +3870,8 @@ header .carousel-control i {
   overflow: hidden;
 }
 .services-area .single-services figure img {
-  width: 100%;
+  width: 40%;
+  height: 50%;
   transition: all 0.5s;
   transform: scale(1, 1);
 }
